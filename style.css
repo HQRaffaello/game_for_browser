@@ -72,7 +72,6 @@ a {
   padding-bottom: 128px;
   display: flex;
   gap: 32px;
-  flex-wrap: wrap;
 }
 .game__item {
   display: flex;
@@ -96,6 +95,10 @@ a {
   border: 3px solid #44D2FF;
   border-radius: 16px;
 }
+.game__item_1_1 {
+  padding-left: 32px;
+  padding-bottom: 32px;
+}
 .game__item_2 {
   background-image: url(./img/game_2.png);
 }
@@ -103,10 +106,18 @@ a {
   border: 3px solid #44D2FF;
   border-radius: 16px;
 }
+.game__item_2_2 {
+  padding-left: 32px;
+  padding-bottom: 32px;
+}
 .game__item_3 {
   background-image: url(./img/game_3.png);
 }
 .game__item_3:hover {
   border: 3px solid #44D2FF;
   border-radius: 16px;
+}
+.game__item_3_3 {
+  padding-left: 32px;
+  padding-bottom: 32px;
 }/*# sourceMappingURL=style.css.map */

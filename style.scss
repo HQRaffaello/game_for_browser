@@ -73,8 +73,6 @@ a {
     padding-bottom: 128px;
     display: flex;
     gap: 32px;
-    flex-wrap: wrap;
-
     &__item{
         display: flex;
         background-repeat: no-repeat;
@@ -95,6 +93,10 @@ a {
                 border: 3px solid #44D2FF;
                 border-radius: 16px;
             }
+            &_1 {
+                padding-left: 32px;
+                padding-bottom: 32px;
+            }
         }
         &_2 {
             background-image: url(./img/game_2.png);
@@ -102,12 +104,20 @@ a {
                 border: 3px solid #44D2FF;
                 border-radius: 16px;
             }
+            &_2 {
+                padding-left: 32px;
+                padding-bottom: 32px;
+            }
         }
         &_3 {
             background-image: url(./img/game_3.png);
             &:hover {
                 border: 3px solid #44D2FF;
                 border-radius: 16px;
+            }
+            &_3 {
+                padding-left: 32px;
+                padding-bottom: 32px;
             }
         }
 
