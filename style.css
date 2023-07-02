@@ -120,4 +120,138 @@ a {
 .game__item_3_3 {
   padding-left: 32px;
   padding-bottom: 32px;
+}
+
+.section_two {
+  background: #000915;
+}
+
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 130px;
+  padding-top: 234px;
+  padding-bottom: 234px;
+}
+.content__description {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  width: 584px;
+}
+.content__description_title {
+  color: #FFF;
+  font-size: 48px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.content__description_text {
+  color: #FFF;
+  font-size: 18px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 32px;
+}
+.content__description_button {
+  width: 234px;
+  border-radius: 30px;
+  background: #9C0332;
+  color: #FFF;
+  font-size: 18px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-left: 74px;
+  padding-right: 74px;
+  padding-top: 13px;
+  padding-bottom: 13px;
+}
+.content__description_button:hover {
+  border-radius: 30px;
+  background: #EB443F;
+}
+
+.section_three {
+  background: #000915;
+}
+
+.section_four {
+  height: 800px;
+  background-image: url(./img/section_4.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.puzzle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+  padding-top: 276px;
+}
+.puzzle__description {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  width: 584px;
+}
+.puzzle__description_title {
+  color: #FFF;
+  font-size: 48px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.puzzle__description_text {
+  color: #FFF;
+  font-size: 18px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 32px;
+  text-align: center;
+}
+.puzzle__description_button {
+  width: 234px;
+  border-radius: 30px;
+  background: #9C0332;
+  color: #FFF;
+  font-size: 18px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-left: 74px;
+  padding-right: 74px;
+  padding-top: 13px;
+  padding-bottom: 13px;
+}
+.puzzle__description_button:hover {
+  border-radius: 30px;
+  background: #EB443F;
+}
+
+.footer {
+  background: #000915;
+  height: 80px;
+}
+.footer__text {
+  color: #FFF;
+  font-size: 12px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-align: center;
+  padding-top: 33px;
+  padding-bottom: 33px;
 }/*# sourceMappingURL=style.css.map */
